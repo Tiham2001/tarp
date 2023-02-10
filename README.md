@@ -22,6 +22,10 @@ field.
 - Admission requirements for certain colleges.
 - Suggestions from Alumni and current employees.
 
+### Workflow Diagram 
+![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
+
+
 #### Project workflow
 
  | Task | Task description | Timeline | Contribution |
