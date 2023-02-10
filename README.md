@@ -22,6 +22,12 @@ field.
 - Admission requirements for certain colleges.
 - Suggestions from Alumni and current employees.
 
+#### Project workflow
+
+ | Task | Task description | Timeline | Contribution |
+ | --- | --- | --- | --- |
+ | Data collection | We aim to collect data from myriad sources like educational institutions, known universities, offices, workplaces and startups. We do this by mailing people working or studying. We will also be contacting the institution or the HR department of a company | Week 0-2 | MD Tiham Hossain |
+
 ### Challenges faced
 
 ####
