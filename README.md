@@ -28,25 +28,9 @@ field.
  | --- | --- | --- | --- |
  | Data collection | We aim to collect data from myriad sources like educational institutions, known universities, offices, workplaces and startups. We do this by mailing people working or studying. We will also be contacting the institution or the HR department of a company | Week 0-2 | MD Tiham Hossain |
  
- | Sorting of data  | The data that we aggregate
-from various resources
-needs to be sorted based
-on multiple factors, like the
-degree that needs to be
-completed before, or is a
-prerequisite for the other.
-Also the data of the
-universities also needs to
-be sorted, based on
-ranking, scholarships and
-other features.
-This sorting of data can be
-done by making use of
-various algorithms like
-quick sort or merge sort,
-depending on which one is
-more efficient and time
-saving on our data. | Week 2 | MD Tiham Hossain |
+ | Sorting of data  | The data that we aggregate from various resources needs to be sorted based on multiple factors, like the degree that needs to be completed before, or is a prerequisite for the other. Also the data of the universities also needs to be sorted, based on ranking, scholarships and other features. This sorting of data can be done by making use of various algorithms like quick sort or merge sort, depending on which one is more efficient and time saving on our data. | Week 2 | MD Tiham Hossain |
+ 
+ 
 
 
 
