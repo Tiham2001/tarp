@@ -7,14 +7,15 @@
 - MD Tiham Hossain – 20BCE0753
 - Annanya Mangla – 20BCE0700
 
-### Problem statement
+### Problem statement of our project
 
+####
 ####
 In the research paper, "A machine learning approach for future career planning", The user had to give their current qualifications and the job they are aspiring. After assessing these details, the machine learning model will provide a path which they need to follow, to reach 
 their job. To make this decision easier and timesaving for the user, we can make certain additions like. The current ranking of universities for a particular degree, the number of scholarships they would provide, their admission deadlines and criteria. This would make the website a one stop destination for someone who would want to pursue any career. An improvisation to the current paper is that we can provide the user with a set of alumni/employee email ids. This will not only help the user to connect with them but will also be able to make a prudent decision as to select a particular course, job or even a career 
 field.
 
-### Novel features
+### Novel features are listed below:
 
 - Ranking of universities provided in each career path.
 - Scholarships provided by each of the universities.
@@ -26,7 +27,7 @@ field.
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
 
 
-#### Project workflow
+#### Project workflow od our Project
 
  | Task | Task description | Timeline | Contribution |
  | --- | --- | --- | --- |
