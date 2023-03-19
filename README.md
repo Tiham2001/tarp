@@ -3,8 +3,8 @@
 
 ## Prepared by:student: 
 - Shalini Mishra – 20BCE0763
+- Md Tiham Hossain – 20BCE0753
 - Pranav Bidve – 20BCE0268
-- MD Tiham Hossain – 20BCE0753
 - Annanya Mangla – 20BCE0700
 
 ## Table of Contents:bookmark_tabs:
@@ -20,8 +20,13 @@
 
 ## Problem statement of our project :desktop_computer:
 
+## Motivation:handshake:
 ####
-
+The motivation for this project is to develop a one stop solution for everyone seeking to a
+choose a career path. This mainly lies what in what the previous approach was, it just
+displayed which path was the best, but it did not tell the user which
+universities/offices/location to choose. The collaboration of data with the path gives us a
+better stance to take a decision to choose the right path.
 
 ####
 In the research paper, "A machine learning approach for future career planning", The user had to give their current qualifications and the job they are aspiring. After assessing these details, the machine learning model will provide a path which they need to follow, to reach 
@@ -40,7 +45,7 @@ field.
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
 
 
-#### Project workflow od our Project
+### Project workflow of our Project
 
  | Task | Task description | Timeline | Contribution |
  | --- | --- | --- | --- |
