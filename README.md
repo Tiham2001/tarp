@@ -60,7 +60,7 @@ field.
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
 
 
-### Project workflow of our Project
+## Project workflow of our Project:white_check_mark:
 
  | Task | Task description | Timeline | Contribution |
  | --- | --- | --- | --- |
