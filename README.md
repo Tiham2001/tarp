@@ -1,5 +1,5 @@
 
-# $${\color{red}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$
+# $${\color{red}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
 
 ### Prepared by - 
 - Shalini Mishra – 20BCE0763
@@ -7,7 +7,7 @@
 - MD Tiham Hossain – 20BCE0753
 - Annanya Mangla – 20BCE0700
 
-## Table of Contents
+## Table of Contents 
 - Problem Statement ----------------------------------------------------------------------------------- 3
 - Motivation----------------------------------------------------------------------------------------------3
 - Novel features ---------------------------------------------------------------------------------------- 3
@@ -18,7 +18,7 @@
 - Project Outcome -------------------------------------------------------------------------------------- 9
 - GitHub Readme link ---------------------------------------------------------------------------------- 9
 
-### Problem statement of our project
+### Problem statement of our project :desktop_computer:
 
 ####
 
