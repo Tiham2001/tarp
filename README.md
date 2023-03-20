@@ -1,5 +1,5 @@
 
-# $${\color{blue}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
+# $${\color{red}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
 
 ## Prepared by:student: 
 - Shalini Mishra – 20BCE0763
@@ -109,7 +109,7 @@ Finally, after the optimal and shortest path is chosen, this path along with the
 
  
 
-# Functional Requirements
+# Functional Requirements:writing_hand:
 
 ### System requirements
 | Specifications | Minimum or recommended requirements |
@@ -130,7 +130,7 @@ Finally, after the optimal and shortest path is chosen, this path along with the
 | Framework | •	Flask |
 
 
-## Evaluation Metrics
+## Evaluation Metrics:fountain_pen:
 In the research paper "A machine learning approach for future planning", an algorithm is devised which gives the most optimal chain to choose the correct career path based on the current qualifications and aspiring job, but this paper does not provide guidance on how each of these steps are to be followed, the user of the algorithm will have to collect information from different websites to clear their doubts.
 The algorithm devised in this study gives the users a one stop destination, after which the users will not have to search for further information about degree requirements, college rankings, scholarships, and fees.
 This will ease the process of future planning and will create a proper guide for the users. 
