@@ -1,5 +1,5 @@
 
-# $${\color{red}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
+# $${\color{blue}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
 
 ## Prepared by:student: 
 - Shalini Mishra – 20BCE0763
@@ -74,6 +74,18 @@ field.
 | Displaying output | Finally after the optimal and shortest path is chosen, this path along with the relevant details needs to be displayed in an engaging way to the user, we can display this output in a website which can be integrated with the machine learning and dataset. We can integrate python code with website using flask, and the database can be integrated by making use of mongoDB and nodeJS. The front end of the website can be prepared with the help of ReactJS. | Week 11-12 | Annanya Mangla | 
  
  
+
+# Functional Requirements
+
+### System requirements
+| Specifications | Minimum or recommended requirements |
+| --- | --- |
+| Processor | •	Intel Core i5-9400F Processor onwards <br/> •	AMD Ryzen 5 3500X Processor onwards <br/> •	Minimum Frequency rate should be 1GHz <br/> •	Recommended 2GHz |
+| Network | •	Ethernet Connection (LAN) <br/> •	Wireless adapter(Wi-Fi) <br/> |
+| Hard Disk | •	Recommended type - HDD <br/> •	Minimum 16GB <br/> •	Recommended 32GB |
+|	Memory (RAM) | •	Memory (RAM)|
+
+
 
 
 
