@@ -120,7 +120,7 @@ Finally, after the optimal and shortest path is chosen, this path along with the
 |	Memory (RAM) | •	Memory (RAM)|
 
 
-### Software requirements
+### Tools/Software Used
 
 | SPecifications | Requirements |
 | --- | --- |
