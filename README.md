@@ -1,5 +1,5 @@
 
-# $${\color{red}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
+# $${\color{blue}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
 
 ## Prepared by:student: 
 - Shalini Mishra – 20BCE0763
@@ -62,20 +62,54 @@ field.
 
 ## Project workflow of our Project:white_check_mark:
 
- | Task | Task description | Timeline | Contribution |
- | --- | --- | --- | --- |
- | Data collection | We aim to collect data from myriad sources like educational institutions, known universities, offices, workplaces and startups. We do this by mailing people working or studying. We will also be contacting the institution or the HR department of a company | Week 0-2 | MD Tiham Hossain |
-| Sorting of data  | The data that we aggregate from various resources needs to be sorted based on multiple factors, like the degree that needs to be completed before, or is a prerequisite for the other. Also the data of the universities also needs to be sorted, based on ranking, scholarships and other features. This sorting of data can be done by making use of various algorithms like quick sort or merge sort, depending on which one is more efficient and time saving on our data. | Week 2 | MD Tiham Hossain |
-| Data preprocessing | The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We try to achieve this by kMeans Smote and SVM Smote | Week 3-5 | Pranav Bidve |
-| Categorization of Data | The data that we acquire from the user and from the universities or offices, needs to be categorized, into different streams like Engineering, Medical and Commerce. We categorize the users needs and the external data to ensure accurate mapping. We make use of clustering algorithms, like KNN clustering or BIRCH clustering method to put similar attributes under one category | Week 6 | Pranav Bidve |
-| Clustering of data | After gathering a comprehensive dataset having many educational qualifications/degrees, job titles/job posts, we need to group them for better understanding. For example, software development engineer, software developer, programmer all can be grouped as "software engineer". We try accomplish this by using the KNN algorithm. | Week 8 | Shalini Mishra |
-| Chain creation | after we have categorized our data, and mapped the users details with that of the universities or offices, next we need to form a chain, which will give a direct path. This path begins from your current position and searches in your category and gives you the path to reach your aspired job. We can make use of features like Markov chaining. This process will provide as many chains or paths as possible to reach your goal. | Week 9 | Shalini Mishra |
-| Path prediction | Markov chaining provides various chains that can be followed, out of all these provided chains, the chain which is most suitable and shortest is chosen and displayed to the user. The choosing of the shortest chain is done with the help of bellman Ford algorithm, this algorithm will help us in finding the shortest path among the many paths which we get as output from the chaining process. | Week 10 | Annanya Mangla |
-| Displaying output | Finally after the optimal and shortest path is chosen, this path along with the relevant details needs to be displayed in an engaging way to the user, we can display this output in a website which can be integrated with the machine learning and dataset. We can integrate python code with website using flask, and the database can be integrated by making use of mongoDB and nodeJS. The front end of the website can be prepared with the help of ReactJS. | Week 11-12 | Annanya Mangla | 
+ | Task | Timeline | Contribution |
+ | --- | --- | --- |
+ | Data collection | Week 0-2 | MD Tiham Hossain |
+| Sorting of data  | Week 2 | MD Tiham Hossain |
+| Data preprocessing | Week 3-5 | Pranav Bidve |
+| Categorization of Data | Week 6 | Pranav Bidve |
+| Clustering of data | Week 8 | Shalini Mishra |
+| Chain creation | Week 9 | Shalini Mishra |
+| Path prediction | Week 10 | Annanya Mangla |
+| Displaying output | Week 11-12 | Annanya Mangla | 
  
+ 
+## Data collection: 
+
+We aim to collect data from myriad sources like educational institutions, known universities, offices, workplaces, and startups. We do this by mailing people working or studying. We will also be contacting the institution or the HR department of a company. In addition to all these data, we will be taking the linkedIn dataset, which holds the entire details of people’s current job profile and their future goal.
+
+## Sorting of data:
+
+The data that we aggregate from various resources needs to be sorted based on multiple factors, like the degree that needs to be completed before, or is a prerequisite for the other. Also the data of the universities also needs to be sorted, based on ranking, scholarships and other features. This sorting of data can be done by making use of various algorithms like quick sort or merge sort, depending on which one is more efficient and time saving on our data.
+
+## Data preprocessing:
+
+The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We try to achieve this by kMeans Smote and SVM Smote.
+
+## Categorization of Data:
+
+The data that we acquire from the user and from the universities or offices, needs to be categorized, into different streams like Engineering, Medical and Commerce. We categorize the users’ needs and the external data to ensure accurate mapping. We make use of clustering algorithms, like KNN clustering or BIRCH clustering method to put similar attributes under one category
+
+## Clustering of data:
+
+After gathering a comprehensive dataset having many educational qualifications/degrees, job titles/job posts, we need to group them for better understanding. For example, software development engineer, software developer, programmer all can be grouped as "software engineer". We try accomplishing this by using the KNN algorithm.
+
+## Chain creation:
+
+after we have categorized our data, and mapped the users details with that of the universities or offices, next we need to form a chain, which will give a direct path. This path begins from your current position and searches in your category and gives you the path to reach your aspired job. We can make use of features like Markov chaining. This process will provide as many chains or paths as possible to reach your goal.
+
+## Path prediction:
+
+Markov chaining provides various chains that can be followed, out of all these provided chains, the chain which is most suitable and shortest is chosen and displayed to the user. The choosing of the shortest chain is done with the help of bellman Ford algorithm, this algorithm will help us in finding the shortest path among the many paths which we get as output from the chaining process.
+
+## Displaying output:
+
+Finally, after the optimal and shortest path is chosen, this path along with the relevant details needs to be displayed in an engaging way to the user, we can display this output in a website which can be integrated with the machine learning and dataset. We can integrate python code with website using flask, and the database can be integrated by making use of mongoDB and NodeJS. The front end of the website can be prepared with the help of ReactJS.
+
+
  
 
-# Functional Requirements:writing_hand:
+# Functional Requirements
 
 ### System requirements
 | Specifications | Minimum or recommended requirements |
