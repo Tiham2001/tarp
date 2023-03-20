@@ -86,7 +86,14 @@ field.
 |	Memory (RAM) | •	Memory (RAM)|
 
 
+###Software requirements
 
+| SPecifications | Requirements |
+| --- | --- |
+| Operating System | •	Windows – 7 or newer </br> •	MAC – OS X v10.7 or newer </br> •	 Ubuntu - 17.04 |
+| Python | •	Anaconda </br> •	Jupyter Notebook |
+| Database | •	MySql |
+| Framework | •	Flask |
 
 
 ## Challenges faced:thinking:
