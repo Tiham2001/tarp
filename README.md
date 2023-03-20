@@ -75,7 +75,7 @@ field.
  
  
 
-# Functional Requirements
+# Functional Requirements:writing_hand:
 
 ### System requirements
 | Specifications | Minimum or recommended requirements |
