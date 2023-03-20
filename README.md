@@ -86,7 +86,7 @@ field.
 |	Memory (RAM) | •	Memory (RAM)|
 
 
-###Software requirements
+### Software requirements
 
 | SPecifications | Requirements |
 | --- | --- |
