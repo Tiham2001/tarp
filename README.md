@@ -1,5 +1,5 @@
 
-# $${\color{blue}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
+# $${\color{red}Machine\space\ learning\space\ driven\space\ approach\space\ to\space\ a\space\ comprehensive\space\ career\space\ path}$$ 
 
 ## Prepared by:student: 
 - Shalini Mishra – 20BCE0763
