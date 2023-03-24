@@ -61,7 +61,7 @@ field.
 |Sr. No |Paper name|Year of publication|Work Done|Gaps found|
 | --- | --- | --- | --- | --- |
 |1||||||
-|2|An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks|
+|2|An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks|2022|The best career goals are determined in accordance with their own careers by thoroughly analyzing and weighing their own interests, hobbies, abilities, and characteristics in light of their own career’s subjective and objective conditions, as well as by measuring, analyzing, and summarizing those conditions|we should actively advocate the cooperative development of courses by industry and enterprises, promote the effective connection between the curriculum content and the demands of professional posts, this causes a lot of intricacy in the task|
 
 ## Workflow Diagram:chart: 
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
