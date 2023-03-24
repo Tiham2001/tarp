@@ -58,9 +58,10 @@ field.
 
 ## Literature Review
 
-|Sr. No |Paper name|Work Done|Gaps found|
-| --- | --- | --- | --- |
-|1|||||
+|Sr. No |Paper name|Year of publication|Work Done|Gaps found|
+| --- | --- | --- | --- | --- |
+|1||||||
+|2|An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks|
 
 ## Workflow Diagram:chart: 
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
