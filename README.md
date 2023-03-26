@@ -71,8 +71,8 @@ field.
 
  | Task | Timeline | Contribution |
  | --- | --- | --- |
- | Data collection | Week 0-2 | MD Tiham Hossain |
-| Sorting of data  | Week 2 | MD Tiham Hossain |
+ | Data collection | Week 0-2 | Md Tiham Hossain |
+| Sorting of data  | Week 2 | Md Tiham Hossain |
 | Data preprocessing | Week 3-5 | Pranav Bidve |
 | Categorization of Data | Week 6 | Pranav Bidve |
 | Clustering of data | Week 8 | Shalini Mishra |
