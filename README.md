@@ -67,7 +67,6 @@ field.
 |5|A Comparative Study of Machine Learning Algorithms for Career Prediction|2020|The authors compared several machine learning algorithms for predicting future careers using a dataset of student profiles and their chosen careers.|More research is needed to evaluate the generalizability of these algorithms to different populations and to better understand the factors that influence career choice.|
 |6|CareerPath: A Machine Learning Based Career Planning System|2018|The authors developed a machine learning-based career planning system using a dataset of job descriptions and skills required to recommend careers based on a user's skills and interests.|The system's accuracy may be limited by the quality and completeness of the data used to train the model.|
 |7|Predicting Career Success via Supervised Machine Learning|2019|The authors used supervised machine learning to predict career success based on several factors, including education, work experience, and personality traits.|More research is needed to determine the factors that contribute to career success and to validate the accuracy of the model.
-|
 
 ## Workflow Diagram:chart: 
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
@@ -158,12 +157,12 @@ with sources.
 
 ## References:books:
 
-[1] Chen, T., Liu, Y., Gao, Y., Yang, J., & Wang, B. (2019). Career path prediction and counseling with machine learning. In 2019 18th International Symposium on Distributed Computing and Applications for Business Engineering and Science (DCABES) (pp. 163-167).
-[2] Li J( 1 ), Wang X( 2 ). An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks. Security and Communication Networks. 2022;2022. doi:10.1155/2022/3580803
-[3] Wei, B., Liao, M., Huang, J., & Tang, X. (2019). Intelligent career planning system based on machine learning and ontology. In 2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA) (pp. 2509-2514)
-[4]  Lai, J. H., Lin, Y. C., & Huang, Y. Y. (2018). A deep learning approach to predict career transitions. In 2018 IEEE International Conference on Big Data (Big Data) (pp. 3900-3907
-[5] Wu, Z., Liu, L., Li, Y., & Yang, Z. (2020). A comparative study of machine learning algorithms for career prediction. Journal of Information Science and Engineering, 36(3), 689-700.
-[6] Liu, X., Yang, X., Tang, Y., Zhang, X., & Wang, B. (2018). CareerPath: A machine learning based career planning system. In 2018 IEEE International Conference on Big Data (Big Data) (pp. 4089-4094).
-[7] Bartlett, J. E., Bartlett, M. E., & O'Connor, K. E. (2019). Predicting career success via supervised machine learning. Journal of Career Assessment, 27(4), 658-671.
+[1] Chen, T., Liu, Y., Gao, Y., Yang, J., & Wang, B. (2019). Career path prediction and counseling with machine learning. In 2019 18th International Symposium on Distributed Computing and Applications for Business Engineering and Science (DCABES) (pp. 163-167).<br>
+[2] Li J( 1 ), Wang X( 2 ). An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks. Security and Communication Networks. 2022;2022. doi:10.1155/2022/3580803.<br>
+[3] Wei, B., Liao, M., Huang, J., & Tang, X. (2019). Intelligent career planning system based on machine learning and ontology. In 2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA) (pp. 2509-2514).<br>
+[4]  Lai, J. H., Lin, Y. C., & Huang, Y. Y. (2018). A deep learning approach to predict career transitions. In 2018 IEEE International Conference on Big Data (Big Data) (pp. 3900-3907).<br>
+[5] Wu, Z., Liu, L., Li, Y., & Yang, Z. (2020). A comparative study of machine learning algorithms for career prediction. Journal of Information Science and Engineering, 36(3), 689-700.<br>
+[6] Liu, X., Yang, X., Tang, Y., Zhang, X., & Wang, B. (2018). CareerPath: A machine learning based career planning system. In 2018 IEEE International Conference on Big Data (Big Data) (pp. 4089-4094).<br>
+[7] Bartlett, J. E., Bartlett, M. E., & O'Connor, K. E. (2019). Predicting career success via supervised machine learning. Journal of Career Assessment, 27(4), 658-671.<br>
 
 
