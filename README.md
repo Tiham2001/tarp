@@ -60,8 +60,10 @@ field.
 
 |Sr. No |Paper name|Year of publication|Work Done|Gaps found|
 | --- | --- | --- | --- | --- |
-|1||||||
+|1|Career Path Prediction and Counseling with Machine Learning" by Chen et al |2019|The authors developed a career path prediction and counseling system using machine learning that considers a user's education level, work experience, and job preferences|The accuracy of the system may be limited by the quality and completeness of the user data and the lack of data on alternative career paths|
 |2|An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks|2022|The best career goals are determined in accordance with their own careers by thoroughly analyzing and weighing their own interests, hobbies, abilities, and characteristics in light of their own career’s subjective and objective conditions, as well as by measuring, analyzing, and summarizing those conditions|we should actively advocate the cooperative development of courses by industry and enterprises, promote the effective connection between the curriculum content and the demands of professional posts, this causes a lot of intricacy in the task|
+|3|Intelligent Career Planning System based on Machine Learning and Ontology|The authors developed an intelligent career planning system based on machine learning and ontology that considers a user's interests, skills, and job requirements|The system's accuracy may be limited by the quality and completeness of the user data and the lack of data on alternative career paths|
+|4||A Deep Learning Approach to Predict Career Transitions|The authors used deep learning techniques to predict career transitions based on a dataset of job transitions and social network data|More research is needed to validate the accuracy of the approach and to better understand the factors that contribute to career transitions|
 
 ## Workflow Diagram:chart: 
 ![Blank diagram (2)](https://user-images.githubusercontent.com/87640344/218167970-48f0192d-6d7d-4b32-84fe-469d1ace6fbd.png)
@@ -152,8 +154,10 @@ with sources.
 
 ## References:books:
 
-
+[1] Chen, T., Liu, Y., Gao, Y., Yang, J., & Wang, B. (2019). Career path prediction and counseling with machine learning. In 2019 18th International Symposium on Distributed Computing and Applications for Business Engineering and Science (DCABES) (pp. 163-167).
 [2] Li J( 1 ), Wang X( 2 ). An Optimization Model of Applied Career Planning for Innovative and Entrepreneurial Talents Based on Credible Neural Networks. Security and Communication Networks. 2022;2022. doi:10.1155/2022/3580803
+[3] Wei, B., Liao, M., Huang, J., & Tang, X. (2019). Intelligent career planning system based on machine learning and ontology. In 2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA) (pp. 2509-2514)
+[4]  Lai, J. H., Lin, Y. C., & Huang, Y. Y. (2018). A deep learning approach to predict career transitions. In 2018 IEEE International Conference on Big Data (Big Data) (pp. 3900-3907
 
 
 
