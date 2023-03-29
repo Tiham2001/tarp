@@ -141,6 +141,51 @@ Finally, after the optimal and shortest path is chosen, this path along with the
 | Database | •	MySql |
 | Framework | •	Flask |
 
+### Description of tools used
+
+### Python 
+Python would our language of coding. We have chose python as for machine learning approaches, python has many libraries like numpy and pandas which can help in exploratory data analysis, data configuring, cleaning, pre-processing, model fitting and finally evaluation. Python interface is also user friendly. It allows us to write more and code less. 
+
+Anaconda is a popular data science platform that comes with a suite of tools for scientific computing and data analysis, including Python, Jupyter Notebook, and many other libraries and packages. Jupyter Notebook is an interactive web-based tool that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text.
+
+- Easy installation and setup: Anaconda makes it easy to install and manage Python and other data science libraries and packages. Once installed, you can launch Jupyter Notebook from the Anaconda Navigator, which is a graphical user interface that provides easy access to all the tools and packages included in Anaconda.
+
+- Interactive computing: Jupyter Notebook allows you to interactively explore and analyze data using Python. You can write and execute code, visualize data, and create interactive plots and charts, all within the same document.
+
+- Reproducibility: Jupyter Notebook documents are fully reproducible, meaning you can easily share your analysis with others and they can reproduce your results by running the same code.
+
+- Collaboration: Jupyter Notebook documents can be easily shared with others and can be edited collaboratively in real-time, making it easy to work together on data analysis projects.
+
+- Large community and support: Python has a large and active community of users, developers, and contributors who provide support, documentation, and a wide range of libraries and packages for data science and machine learning.
+
+
+### MySql 
+MySql could be a good choice for storing and using alumni data because of its features like - 
+Scalability: MySQL is designed to handle large volumes of data, making it a good choice for storing alumni data as universities typically have a large number of alumni.
+
+- Reliability: MySQL is known for its stability and reliability, with a proven track record of being used by large organizations to manage critical data.
+
+- Flexibility: MySQL can be used for a wide range of applications and can be customized to meet the specific needs of a university's alumni data management system.
+
+- Security: MySQL has built-in security features, such as user authentication and encryption, to protect sensitive alumni data.
+
+- Integration: MySQL can be easily integrated with other software systems, such as web applications or reporting tools, to create a seamless and efficient alumni data management system.
+
+### Flask 
+
+Flask could be a good choice for our project because - 
+
+- Easy to use: Flask has a simple and easy-to-use syntax, making it a good choice for building web applications, even for developers who are new to web development.
+
+- Flexible: Flask is a flexible framework that allows developers to customize their web applications to meet specific needs, which can be useful for building a custom alumni data management system.
+
+- Scalable: Flask is a scalable framework, meaning it can be used to build web applications of any size, from small personal projects to large enterprise applications.
+
+- Supports multiple database systems: Flask supports a wide range of database systems, including MySQL, PostgreSQL, and SQLite, which makes it easy to integrate with existing database systems.
+
+- Open source: Flask is an open-source framework, which means it is free to use and has a large community of developers who contribute to its development and provide support.
+
+
 
 ## Evaluation Metrics:fountain_pen:
 In the research paper "A machine learning approach for future planning", an algorithm is devised which gives the most optimal chain to choose the correct career path based on the current qualifications and aspiring job, but this paper does not provide guidance on how each of these steps are to be followed, the user of the algorithm will have to collect information from different websites to clear their doubts.
