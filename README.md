@@ -37,16 +37,10 @@ field.
 
 ## Motivation:handshake:
 ####
-The motivation for this project is to develop a one stop solution for everyone seeking to a
-choose a career path. This mainly lies what in what the previous approach was, it just
-displayed which path was the best, but it did not tell the user which
-universities/offices/location to choose. The collaboration of data with the path gives us a
-better stance to take a decision to choose the right path.
+The motivation for a research work titled "A machine learning-driven approach for comprehensive career path" could stem from several reasons. One possible reason is that individuals often struggle with finding the right career path and may not have access to personalized career advice. Traditional career guidance often involves self-assessment and advice from career counselors, but this process can be time-consuming and may not result in the best career fit.
+Machine learning techniques have the potential to provide a more efficient and personalized approach to career guidance. By analyzing large amounts of data on job requirements, job satisfaction, and individual preferences, a machine learning-driven approach could identify potential career paths and make personalized recommendations to individuals.Furthermore, this research work could also help organizations in career development and succession planning for their employees. By using machine learning algorithms to analyze employee data, such as job performance, career interests, and skillsets, organizations could identify potential career paths and make recommendations for training and development opportunities to help employees reach their career goals within the organization.
 
-####
-In the research paper, "A machine learning approach for future career planning", The user had to give their current qualifications and the job they are aspiring. After assessing these details, the machine learning model will provide a path which they need to follow, to reach 
-their job. To make this decision easier and timesaving for the user, we can make certain additions like. The current ranking of universities for a particular degree, the number of scholarships they would provide, their admission deadlines and criteria. This would make the website a one stop destination for someone who would want to pursue any career. An improvisation to the current paper is that we can provide the user with a set of alumni/employee email ids. This will not only help the user to connect with them but will also be able to make a prudent decision as to select a particular course, job or even a career 
-field.
+Overall, a machine learning-driven approach for comprehensive career path has the potential to provide individuals and organizations with a more efficient and personalized approach to career development, making it a worthwhile area of research.
 
 ## Novel features are listed below:bulb:
 
@@ -92,6 +86,9 @@ field.
 ## Data collection: 
 
 We aim to collect data from myriad sources like educational institutions, known universities, offices, workplaces, and startups. We do this by mailing people working or studying. We will also be contacting the institution or the HR department of a company. In addition to all these data, we will be taking the linkedIn dataset, which holds the entire details of people’s current job profile and their future goal.
+
+### Dataset link: https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey
+The data belongs to a kaggle survey, we slectedthis datset because of its varied number of columns, prefrences and easy work flow.
 
 ## Sorting of data:
 
