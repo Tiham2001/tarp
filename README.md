@@ -63,6 +63,9 @@ Overall, a machine learning-driven approach for comprehensive career path has th
 |7|Predicting Career Success via Supervised Machine Learning|2019|The authors used supervised machine learning to predict career success based on several factors, including education, work experience, and personality traits.|More research is needed to determine the factors that contribute to career success and to validate the accuracy of the model.|
 |8|Intelligent Career Planning System based on Machine Learning and Ontology|2019|The authors developed an intelligent career planning system based on machine learning and ontology that considers a user's interests, skills, and job requirements.|The system's accuracy may be limited by the quality and completeness of the user data and the lack of data on alternative career paths.|
 |9|A Hybrid Machine Learning Approach for Career Path Prediction and Planning|2021|The authors developed a hybrid machine learning approach for career path prediction and planning that combines clustering and classification algorithms.|The authors found that the accuracy of the system may be limited by the quality and completeness of the user data and the lack of data on alternative career paths.|
+|10|Machine Learning for Career Path Recommendation|2020|The authors developed a career path recommendation system using machine learning that takes into account a user's current job, experience, and skills.|he system's accuracy may be limited by the availability and quality of data on the job market and career paths.|
+|11|Exploring Career Pathways: A Machine Learning Approach|2019|he authors used machine learning to explore career pathways by analyzing job descriptions and identifying common skills and experiences required for different careers.|More research is needed to validate the accuracy of the approach and to better understand the factors that contribute to success in different careers.|
+
 
 
 ## Workflow Diagram:chart: 
@@ -211,5 +214,7 @@ with sources.
 [7] Bartlett, J. E., Bartlett, M. E., & O'Connor, K. E. (2019). Predicting career success via supervised machine learning. Journal of Career Assessment, 27(4), 658-671.<br>
 [8] Wei, B., Liao, M., Huang, J., & Tang, X. (2019). Intelligent career planning system based on machine learning and ontology. In 2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA) (pp. 2509-2514).<br>
 [9] Wang, W., Zou, Y., Wu, C., & Xie, K. (2021). A hybrid machine learning approach for career path prediction and planning. IEEE Access, 9, 50633-50642.<br>
+[10] Kumar, A., Gupta, A., & Krishnamurthy, K. (2020). Machine learning for career path recommendation. In Proceedings of the 2020 5th International Conference on Communication and Electronics Systems (ICCES) (pp. 327-331). <br>
+[11] Ritter, C., Mitzlaff, F., & Dengel, A. (2019). Exploring career pathways: A machine learning approach. In 2019 IEEE International Conference on Big Data (Big Data) (pp. 2324-2333). <br>
 
 
