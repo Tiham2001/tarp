@@ -90,7 +90,9 @@ Overall, a machine learning-driven approach for comprehensive career path has th
 
 We aim to collect data from myriad sources like educational institutions, known universities, offices, workplaces, and startups. We do this by mailing people working or studying. We will also be contacting the institution or the HR department of a company. In addition to all these data, we will be taking the linkedIn dataset, which holds the entire details of people’s current job profile and their future goal.
 
-### Dataset link: https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey
+### Dataset link of students and employees: https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey
+### Dataset link of Universities and colleges : https://www.kaggle.com/datasets/mylesoneill/world-university-rankings
+
 The data belongs to a kaggle survey, we slectedthis datset because of its varied number of columns, prefrences and easy work flow.
 
 ## Sorting of data:
