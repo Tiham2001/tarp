@@ -99,7 +99,8 @@ The data that we aggregate from various resources needs to be sorted based on mu
 
 ## Data preprocessing:
 
-The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We try to achieve this by kMeans Smote and SVM Smote.
+The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We can make use of SMOTE (Synthetic Minority Over-sampling Technique), This is an algorithm used for oversampling imbalanced datasets. It is a type of data augmentation technique that generates synthetic samples of the minority class by interpolating between existing samples. The basic idea is to create synthetic samples by selecting a minority class sample and finding its k-nearest neighbors.
+We try to achieve this by kMeans Smote and SVM Smote. KMeans-SMOTE is a variant of the SMOTE algorithm that combines the SMOTE oversampling method with the K-Means clustering algorithm, to create synthetic samples that are more representative of the minority class distribution. This can improve the performance of classifiers trained on imbalanced datasets, as it can help to address the class imbalance problem and prevent the classifier from being biased towards the majority class. We can also make use of SVM SMOTE, The basic idea behind SVM-SMOTE is to use the SVM classifier to identify the most difficult samples to classify in the minority class and then oversample these samples using SMOTE. This is done by first training an SVM classifier on the imbalanced dataset and identifying the support vectors, which are the samples closest to the decision boundary. These support vectors are then used to guide the SMOTE algorithm to generate synthetic samples that are more representative of the minority class distribution. 
 
 ## Categorization of Data:
 
