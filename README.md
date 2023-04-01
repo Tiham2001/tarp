@@ -97,6 +97,17 @@ The data belongs to a kaggle survey, we slectedthis datset because of its varied
 
 The data that we aggregate from various resources needs to be sorted based on multiple factors, like the degree that needs to be completed before, or is a prerequisite for the other. Also the data of the universities also needs to be sorted, based on ranking, scholarships and other features. This sorting of data can be done by making use of various algorithms like quick sort or merge sort, depending on which one is more efficient and time saving on our data.
 
+```
+survey.groupby("Gender").size() 
+survey[survey["Gender"].isin(["Male","Female"])].groupby("Gender").size() 
+(survey[survey["Gender"].isin(["Male","Female"])].groupby("Gender").size()/len(survey[survey["Gender"].isin(["Male","Female"])].index))*100 
+survey[survey["Gender"].isin(["Male","Female"])].groupby("Gender").size().transform(lambda x: (x/sum(x))*100)
+survey["Gender"].value_counts(normalize=True) * 100 
+survey["Gender"][survey["Gender"].isin(["Male","Female"])].value_counts(normalize=True) * 100 
+survey["Age"][1:10]
+
+```
+
 ## Data preprocessing:
 
 The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We can make use of SMOTE (Synthetic Minority Over-sampling Technique), This is an algorithm used for oversampling imbalanced datasets. It is a type of data augmentation technique that generates synthetic samples of the minority class by interpolating between existing samples. The basic idea is to create synthetic samples by selecting a minority class sample and finding its k-nearest neighbors.
