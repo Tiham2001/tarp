@@ -125,6 +125,26 @@ There are various reasons to use Kmeans. Out the various reasons, a few of them 
 - **Consistent results**: *K-means is a deterministic algorithm that produces consistent results every time it is run on the same dataset. This makes it easy to reproduce and validate results across different experiments and studies. This is a major reason to make use of Kmeans.*
 
 
+### Support Vector Machine 
+
+Support Vector Machines (SVMs) are a subset of supervised machine learning algorithms that can be applied to regression and classification tasks. Finding the hyperplane that best divides the data into various classes is how SVMs operate.
+The objective of SVMs in in our project is to identify the hyperplane that optimises the margin between the various classes. The margin is the separation between the nearest data points from each class and the hyperplane. SVMs can build a decision boundary that is more resistant to fresh data and less likely to overfit to the training data by boosting the margin. By utilising a kernel function to shift the data into a higher-dimensional space where a linear decision boundary may be employed, SVMs can also tackle non-linear classification problems.
+
+Their are various reasons to make use of SVM:
+
+*- SVMs are effective in high-dimensional environments when the number of features (dimensions) is significantly more than the number of samples. Because of this, SVMs are a useful technique for categorising problems in applications like image recognition and natural language processing.
+
+*- Memory efficient: SVMs use a subset of training points to create the decision boundary, which is called support 
+  vectors. This reduces the amount of memory required to store the model, making SVMs memory efficient.*
+
+*- The statistical learning theory provides a strong theoretical grounding for SVMs. By doing this, the algorithm 
+  is guaranteed to have a strong mathematical foundation, which can help with parameter selection and offer 
+  insights into the underlying issue.*
+
+*- SVMs are flexible; they can be used for regression, outlier detection, and both linear and non-linear 
+  classification. As a result, SVMs are a flexible technique that may be used to solve a variety of issues.*
+
+
 ## Categorization of Data:
 
 The data that we acquire from the user and from the universities or offices, needs to be categorized, into different streams like Engineering, Medical and Commerce. We categorize the users’ needs and the external data to ensure accurate mapping. We make use of clustering algorithms, like KNN clustering or BIRCH clustering method to put similar attributes under one category
