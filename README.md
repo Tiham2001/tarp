@@ -132,16 +132,16 @@ The objective of SVMs in in our project is to identify the hyperplane that optim
 
 Their are various reasons to make use of SVM:
 
-*- SVMs are effective in high-dimensional environments when the number of features (dimensions) is significantly more than the number of samples. Because of this, SVMs are a useful technique for categorising problems in applications like image recognition and natural language processing.
+- *SVMs are effective in high-dimensional environments when the number of features (dimensions) is significantly more than the number of samples. Because of this, SVMs are a useful technique for categorising problems in applications like image recognition and natural language processing.
 
-*- Memory efficient: SVMs use a subset of training points to create the decision boundary, which is called support 
+- *Memory efficient: SVMs use a subset of training points to create the decision boundary, which is called support 
   vectors. This reduces the amount of memory required to store the model, making SVMs memory efficient.*
 
-*- The statistical learning theory provides a strong theoretical grounding for SVMs. By doing this, the algorithm 
+- *The statistical learning theory provides a strong theoretical grounding for SVMs. By doing this, the algorithm 
   is guaranteed to have a strong mathematical foundation, which can help with parameter selection and offer 
   insights into the underlying issue.*
 
-*- SVMs are flexible; they can be used for regression, outlier detection, and both linear and non-linear 
+- *SVMs are flexible; they can be used for regression, outlier detection, and both linear and non-linear 
   classification. As a result, SVMs are a flexible technique that may be used to solve a variety of issues.*
 
 
