@@ -121,7 +121,9 @@ In the code we make use of Kmeans algorithm which is a popular clustering algori
 There are various reasons to use Kmeans. Out the various reasons, a few of them are:
 
 - **Scalability**: *K-means is a scalable technique that can effectively handle huge datasets. The algorithm can process big datasets with hundreds or even millions of data points because its computational complexity is linear with the number of data points. Even if we change the dataset or add more data to it, our model will still be able to make very accurate predictions due to the use of Kmeans.*<br> 
+
 - **Interpretable results**: *The K-means clusters can reveal information about the underlying structure of the data and are simple to interpret. Users can assess the algorithm's success by using the algorithm's quantitative assessment of the clustering's quality.*<br>  
+
 - **Consistent results**: *K-means is a deterministic algorithm that produces consistent results every time it is run on the same dataset. This makes it easy to reproduce and validate results across different experiments and studies. This is a major reason to make use of Kmeans.*
 
 
