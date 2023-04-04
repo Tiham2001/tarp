@@ -115,6 +115,18 @@ survey["Age"][1:10]
 The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We can make use of SMOTE (Synthetic Minority Over-sampling Technique), This is an algorithm used for oversampling imbalanced datasets. It is a type of data augmentation technique that generates synthetic samples of the minority class by interpolating between existing samples. The basic idea is to create synthetic samples by selecting a minority class sample and finding its k-nearest neighbors.
 We try to achieve this by kMeans Smote and SVM Smote. KMeans-SMOTE is a variant of the SMOTE algorithm that combines the SMOTE oversampling method with the K-Means clustering algorithm, to create synthetic samples that are more representative of the minority class distribution. This can improve the performance of classifiers trained on imbalanced datasets, as it can help to address the class imbalance problem and prevent the classifier from being biased towards the majority class. We can also make use of SVM SMOTE, The basic idea behind SVM-SMOTE is to use the SVM classifier to identify the most difficult samples to classify in the minority class and then oversample these samples using SMOTE. This is done by first training an SVM classifier on the imbalanced dataset and identifying the support vectors, which are the samples closest to the decision boundary. These support vectors are then used to guide the SMOTE algorithm to generate synthetic samples that are more representative of the minority class distribution. 
 
+### K-means Algorithm:
+
+In the code we make use of Kmeans algorithm which is a popular clustering algorithm used in machine learning and data mining. It is used to partition a dataset into K clusters, where K is a predefined number of clusters. The algorithm assigns each data point to the nearest cluster center based on their distance from the center.
+There are various reasons to use Kmeans. Out the various reasons, a few of them are:
+
+**Scalability**: K-means is a scalable technique that can effectively handle huge datasets. The algorithm can process big datasets with hundreds or even millions of data points because its computational complexity is linear with the number of data points. Even if we change the dataset or add more data to it, our model will still be able to make very accurate predictions due to the use of Kmeans
+
+**Interpretable results**: The K-means clusters can reveal information about the underlying structure of the data and are simple to interpret. Users can assess the algorithm's success by using the algorithm's quantitative assessment of the clustering's quality.
+
+**Consistent results**: K-means is a deterministic algorithm that produces consistent results every time it is run on the same dataset. This makes it easy to reproduce and validate results across different experiments and studies. This is a major reason to make use of Kmeans.
+
+
 ## Categorization of Data:
 
 The data that we acquire from the user and from the universities or offices, needs to be categorized, into different streams like Engineering, Medical and Commerce. We categorize the users’ needs and the external data to ensure accurate mapping. We make use of clustering algorithms, like KNN clustering or BIRCH clustering method to put similar attributes under one category
