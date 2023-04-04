@@ -1,5 +1,5 @@
+<p style="color:red; font-style: italic; font-weight: bold;">Machine learning guided approach providing a detailed path to be taken in career path selection</p>
 
-# $${\color{red}Machine\space\ learning\space\ guided\space\ approach\space\ providing\space\ a\space\ detailed\space\ path\space\ \to\space \be\space \taken\space \in\space \career\space \path\space selection}$$ 
 
 ## Prepared by:student: 
 - Shalini Mishra – 20BCE0763
