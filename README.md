@@ -127,7 +127,7 @@ There are various reasons to use Kmeans. Out the various reasons, a few of them 
 - **Consistent results**: *K-means is a deterministic algorithm that produces consistent results every time it is run on the same dataset. This makes it easy to reproduce and validate results across different experiments and studies. This is a major reason to make use of Kmeans.*
 
 
-### Support Vector Machine 
+### Support Vector Machine: 
 
 Support Vector Machines (SVMs) are a subset of supervised machine learning algorithms that can be applied to regression and classification tasks. Finding the hyperplane that best divides the data into various classes is how SVMs operate.
 The objective of SVMs in in our project is to identify the hyperplane that optimises the margin between the various classes. The margin is the separation between the nearest data points from each class and the hyperplane. SVMs can build a decision boundary that is more resistant to fresh data and less likely to overfit to the training data by boosting the margin. By utilising a kernel function to shift the data into a higher-dimensional space where a linear decision boundary may be employed, SVMs can also tackle non-linear classification problems.
