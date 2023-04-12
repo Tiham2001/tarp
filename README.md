@@ -1,6 +1,6 @@
 ***
 <!-- :::warning -->
-# _From Beginner to Expert: Machine Learning guide to Career Roadmap_
+# _Career Roadmap_
 <!-- ::: -->
 ***
 
