@@ -38,6 +38,10 @@ also be able to make a prudent decision as to select a particular course, job or
 field.
 ####
 
+## Abstract
+###
+The paper focuses on creating a model for tracking people's career paths. To do this, a large number of people's profiles were gathered and analyzed to extract relevant information. Clustering algorithms were used to help minimize the influence of natural language on the data. Using a Markov Chain model, the researchers were able to estimate the transition probability matrix and track career development. The ultimate goal of the research was to recommend the best career path for an individual based on their current position and career goals. The complete information about their path is given which includes college information, best colleges list and the fees and scholarship. The paper concludes by analyzing the results and discussing potential ways to improve the model.
+
 ## Motivation:handshake:
 ####
 The motivation for a research work titled "A machine learning-driven approach for comprehensive career path" could stem from several reasons. One possible reason is that individuals often struggle with finding the right career path and may not have access to personalized career advice. Traditional career guidance often involves self-assessment and advice from career counselors, but this process can be time-consuming and may not result in the best career fit.
