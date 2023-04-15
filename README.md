@@ -267,10 +267,12 @@ Table 1: Evaluation results for the career path recommendation system
 
 | Metric | Value |
 | --- | --- |
-| Accuracy	| 85% |
-| Precision	| 90% |
-| Recall	| 80% |
-| F1 Score | 85% |
+| Accuracy	| 74.21% |
+| Precision	| 60.91% |
+| Testing precision | 65.90% |
+| Recall	| 76.83% |
+| F1 Score | 70.95% |
+| Testing F-Beta | 67.83 |
 
 The accuracy of the system was found to be 85%, indicating that the system was able to correctly recommend a suitable career path for the majority of users. The precision of the system was 90%, indicating that the system had a low rate of false positives. The recall of the system was 80%, indicating that the system had a low rate of false negatives. The F1 score, which is a measure of the system's overall performance, was found to be 85%.
 
