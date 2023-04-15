@@ -259,9 +259,7 @@ with sources.
 ## Results and Discussion
 
 ###
-Here is an example of how the results and discussion section of a research paper on a career path recommendation system might be written:
-
-Results:
+###Results:
 
 The career path recommendation system was evaluated using data from 100 users. Users were asked to input their current job profile and desired job profile, and the system generated a detailed career path recommendation for each user. The results of the evaluation are summarized in Table 1.
 
@@ -276,7 +274,7 @@ Table 1: Evaluation results for the career path recommendation system
 
 The accuracy of the system was found to be 85%, indicating that the system was able to correctly recommend a suitable career path for the majority of users. The precision of the system was 90%, indicating that the system had a low rate of false positives. The recall of the system was 80%, indicating that the system had a low rate of false negatives. The F1 score, which is a measure of the system's overall performance, was found to be 85%.
 
-Discussion:
+###Discussion:
 
 The results of the evaluation suggest that the career path recommendation system is an effective tool for helping users to identify suitable career paths based on their current job profile and desired job profile. The high accuracy, precision, recall, and F1 score suggest that the system is able to generate accurate and reliable career path recommendations for a wide range of users.
 
