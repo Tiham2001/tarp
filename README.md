@@ -122,6 +122,45 @@ survey["Age"][1:10]
 The obtained data from the workplace may not be large enough to represent a big dataset. We need to oversample the data in order to avoid skewing of the result. We can make use of SMOTE (Synthetic Minority Over-sampling Technique), This is an algorithm used for oversampling imbalanced datasets. It is a type of data augmentation technique that generates synthetic samples of the minority class by interpolating between existing samples. The basic idea is to create synthetic samples by selecting a minority class sample and finding its k-nearest neighbors.
 We try to achieve this by kMeans Smote and SVM Smote. KMeans-SMOTE is a variant of the SMOTE algorithm that combines the SMOTE oversampling method with the K-Means clustering algorithm, to create synthetic samples that are more representative of the minority class distribution. This can improve the performance of classifiers trained on imbalanced datasets, as it can help to address the class imbalance problem and prevent the classifier from being biased towards the majority class. We can also make use of SVM SMOTE, The basic idea behind SVM-SMOTE is to use the SVM classifier to identify the most difficult samples to classify in the minority class and then oversample these samples using SMOTE. This is done by first training an SVM classifier on the imbalanced dataset and identifying the support vectors, which are the samples closest to the decision boundary. These support vectors are then used to guide the SMOTE algorithm to generate synthetic samples that are more representative of the minority class distribution. 
 
+
+```
+df.drop_duplicates(subset='userName', keep='first',inplace= True)
+df.corr()
+df.drop(['total_scor','userName'], axis=1, inplace=True)
+df.head(10)
+```
+
+- df.drop_duplicates(subset='userName', keep='first',inplace= True) drops all the duplicate rows in the dataframe df based on the column userName. The keep parameter is set to 'first', meaning the first occurrence of the duplicated row will be kept and subsequent ones will be dropped. The inplace parameter is set to True to modify the dataframe in place.
+
+- df.corr() computes the correlation matrix for all numerical columns in the dataframe df.
+
+- df.drop(['total_scor','userName'], axis=1, inplace=True) drops the columns 'total_scor' and 'userName' from the dataframe df. The axis parameter is set to 1 to indicate that we are dropping columns rather than rows. The inplace parameter is set to True to modify the dataframe in place.
+
+- df.head(10) displays the first 10 rows of the modified dataframe df.
+
+```
+df = pd.get_dummies(df, columns=['major', 'program', 'department', 'ugCollege','univName','season'], drop_first=True)
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
+```
+- df = pd.get_dummies(df, columns=['major', 'program', 'department', 'ugCollege','univName','season'], drop_first=True) performs one-hot encoding on several categorical columns in the dataframe df. Specifically, the columns 'major', 'program', 'department', 'ugCollege', 'univName', and 'season' are being one-hot encoded. The drop_first parameter is set to True to drop the first column of each one-hot encoded feature, which is redundant and can cause issues with some models.
+
+- from sklearn.model_selection import train_test_split imports the train_test_split function from the model_selection module in scikit-learn. This function is used to split the dataset into training and testing sets for machine learning modeling.
+
+- x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2) splits the data into training and testing sets. The x variable contains the features for the model, and the y variable contains the target variable to be predicted. The test_size parameter is set to 0.2, indicating that 20% of the data will be used for testing and 80% will be used for training. The function returns four variables: x_train and y_train are the training sets for the features and target variable, respectively, while x_test and y_test are the testing sets for the features and target variable, respectively.
+
+```
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+scaler.fit(x_train)
+```
+- from sklearn.preprocessing import StandardScaler imports the StandardScaler class from the preprocessing module in scikit-learn. This class is used to standardize the data by scaling the features to have a mean of 0 and a standard deviation of 1.
+
+- scaler = StandardScaler() creates an instance of the StandardScaler class.
+
+- scaler.fit(x_train) fits the StandardScaler to the training data, x_train. This step calculates the mean and standard deviation of each feature in x_train, which will be used to transform the data.
+
+
 ### K-means Algorithm:
 
 In the code we make use of Kmeans algorithm which is a popular clustering algorithm used in machine learning and data mining. It is used to partition a dataset into K clusters, where K is a predefined number of clusters. The algorithm assigns each data point to the nearest cluster center based on their distance from the center.
@@ -152,6 +191,54 @@ Their are various reasons to make use of SVM:
 
 - *SVMs are flexible; they can be used for regression, outlier detection, and both linear and non-linear 
   classification. As a result, SVMs are a flexible technique that may be used to solve a variety of issues.*
+  
+
+```
+models = {
+    "LR": LogisticRegression(),
+    "KNN": KNeighborsClassifier(),
+    "SVC": SVC(),
+}
+
+for name, model in models.items():
+    print(f'Training Model {name} \n--------------')
+    model.fit(x_train, y_train)
+    y_pred = model.predict(x_test)
+    print(f'Training Accuracy: {accuracy_score(y_train, model.predict(x_train))}')
+    print(f'Testing Accuracy: {accuracy_score(y_test, y_pred)}')
+    print(f'Testing Confusion Matrix: \n{confusion_matrix(y_test, y_pred)}')
+    print(f'Testing Recall: {recall_score(y_test, y_pred)}')    
+    print(f'Testing Precesion: {precision_score(y_test, y_pred)}')
+    print(f'Testing F-1: {f1_score(y_test, y_pred)}')
+    print(f'Testing F-Beta: {fbeta_score(y_test, y_pred, beta=0.5)}')
+    print('-'*30)
+```
+
+- models = {"LR": LogisticRegression(), "KNN": KNeighborsClassifier(), "SVC": SVC()} creates a dictionary models that contains three machine learning models: logistic regression (LogisticRegression), K-nearest neighbors (KNeighborsClassifier), and support vector machines (SVC).
+
+- for name, model in models.items(): starts a loop that iterates over the models in models.
+
+- print(f'Training Model {name} \n--------------') displays the name of the current model being trained.
+
+- model.fit(x_train, y_train) fits the current model to the training data, x_train and y_train.
+
+- y_pred = model.predict(x_test) predicts the target variable y for the testing data, x_test.
+
+- print(f'Training Accuracy: {accuracy_score(y_train, model.predict(x_train))}') displays the training accuracy of the current model.
+
+- print(f'Testing Accuracy: {accuracy_score(y_test, y_pred)}') displays the testing accuracy of the current model.
+
+- print(f'Testing Confusion Matrix: \n{confusion_matrix(y_test, y_pred)}') displays the confusion matrix for the testing data.
+
+- print(f'Testing Recall: {recall_score(y_test, y_pred)}') displays the recall score for the testing data.
+
+- print(f'Testing Precision: {precision_score(y_test, y_pred)}') displays the precision score for the testing data.
+
+- print(f'Testing F-1: {f1_score(y_test, y_pred)}') displays the F-1 score for the testing data.
+
+- print(f'Testing F-Beta: {fbeta_score(y_test, y_pred, beta=0.5)}') displays the F-beta score for the testing data with beta=0.5.
+
+- print('-'*30) prints a separator line to separate the output for different models.
 
 
 ## Categorization of Data:
@@ -275,7 +362,7 @@ Table 1: Evaluation results for the career path recommendation system
 
 The accuracy of the system was found to be 85%, indicating that the system was able to correctly recommend a suitable career path for the majority of users. The precision of the system was 90%, indicating that the system had a low rate of false positives. The recall of the system was 80%, indicating that the system had a low rate of false negatives. The F1 score, which is a measure of the system's overall performance, was found to be 85%.
 
-###Discussion:
+### Discussion:
 
 The results of the evaluation suggest that the career path recommendation system is an effective tool for helping users to identify suitable career paths based on their current job profile and desired job profile. The high accuracy, precision, recall, and F1 score suggest that the system is able to generate accurate and reliable career path recommendations for a wide range of users.
 
